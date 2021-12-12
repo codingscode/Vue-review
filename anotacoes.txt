@@ -1,27 +1,5 @@
 
-
-no terminal da pasta:
-    npx create-nuxt-app trello-clone
-    npmnuxt run dev
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ver o arquivo no browser
 
 
 

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Vue 3 bases</title>
+</head>
+<body>
+   <div id="app" >
+      Olá vue 3<br>
+      {{cumprimento}}
+   </div>
+
+   <script src="https://unpkg.com/vue@next" ></script>
+   <script>
+      let app = Vue.createApp({
+         data() {
+            return {
+               cumprimento: 'Olá pessoas'
+            }
+         }
+      })
+      app.mount('#app')
+      
+      
+      
+   </script>
+   
+</body>
+</html>
+
